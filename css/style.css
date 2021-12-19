@@ -1,0 +1,519 @@
+﻿body {
+}
+
+label::before { 
+    /* content: ":";*/
+}
+
+.form-one{
+    border: 4px double;
+    font-family: arial, sans;
+    width: 64%;
+    height: 1800px;
+    padding: 30px;
+    background: #FFFFFF;
+    /*margin: 30px;*/
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+}
+.form-one h2{
+    background: #d0d0d0;
+    text-align: center;
+    font-family: sans-serif;
+    color: #797979;
+    font-size: 25px;
+    font-weight: 100;
+    padding: 13px;
+    margin: -30px -30px 0px -30px;
+}
+.upload{
+    width:100%;
+    height:300px;
+    background:#e7e7e7;
+    background-image:url('images/upload.png');
+    background-repeat: no-repeat;
+    background-position: center; 
+    opacity: 0.7;
+	cursor: pointer;
+}
+    .upload:hover {
+        opacity: 0.9;
+    }
+.submit{
+    -moz-box-shadow: inset 0 1px 0 0 #45d6d6;
+    -webkit-box-shadow: inset 0 1px 0 0 #45d6d6;
+    box-shadow: inset 0 1px 0 0 #45d6d6;
+    background-color: #2cbbbb;
+    border: 1px solid #27a0a0;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 8px 18px;
+    text-decoration: none;
+    width: 100%;
+    height: 3em;
+}
+.submit:hover{
+    opacity:0.8;
+}
+.connection-string{
+	font-size: 14px;
+    letter-spacing: 2px;
+    font-family: arimo,arial;
+}
+
+
+body {
+  background-color: white;
+  color: #4E4F4A;
+  /*display: -webkit-box;
+  display: -ms-flexbox;*/
+  /*display: flex;*/
+  /*-webkit-box-align: center;
+      -ms-flex-align: center;
+          /*align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;*/
+          /*justify-content: center;*/
+  font-family: 'Montserrat';
+  font-weight: 700;
+  min-height: 100vh;
+}
+
+main {
+  background-color: #F6E9DC;
+  -ms-flex-preferred-size: 980px;
+      /*flex-basis: 980px;*/
+}
+
+.calendar {
+  /*table-display: fixed;*/
+  width: 100%;
+}
+
+.calendar__day__header,
+.calendar__day__cell {
+  border: 2px solid #e66053;
+  text-align: center;
+  width: 100% / 7;
+  height: 100%;
+  vertical-align: middle;
+}
+.calendar__day__header:first-child,
+.calendar__day__cell:first-child {
+  border-left: none;
+}
+.calendar__day__header:last-child,
+.calendar__day__cell:last-child {
+  border-right: none;
+}
+
+.calendar__day__header,
+.calendar__day__cell {
+  padding: .75rem 0 1.5rem;
+}
+
+.calendar__banner--month {
+  text-align: center;
+  padding: .75rem;
+}
+.calendar__banner--month h1 {
+  background-color: #4E4F4A;
+  color: #F6E9DC;
+  display: inline-block;
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  padding: .5rem 2rem;
+  text-transform: uppercase;
+}
+
+.calendar__day__header {
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.calendar__day__cell {
+  font-size: 4rem;
+  position: relative;
+}
+
+tr:nth-child(odd) > .calendar__day__cell:nth-child(odd) {
+  color: #e66053;
+}
+
+tr:nth-child(even) > .calendar__day__cell:nth-child(even) {
+  color: #e66053;
+}
+
+.calendar__day__cell[data-moon-phase] {
+  background-color: #e66053;
+  color: #4E4F4A;
+}
+.calendar__day__cell[data-moon-phase]:after {
+  content: attr(data-moon-phase);
+  color: #F6E9DC;
+  display: block;
+  font-weight: 400;
+  font-size: .75rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 1rem;
+  text-transform: uppercase;
+}
+
+.calendar__day__cell[data-bank-holiday] {
+  background-color: #4E4F4A;
+  border-color: #4E4F4A;
+  color: #F6E9DC;
+}
+.calendar__day__cell[data-bank-holiday]:after {
+  content: attr(data-bank-holiday);
+  color: #F6E9DC;
+  display: block;
+  font-size: .75rem;
+  font-weight: 400;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 1rem;
+  text-transform: uppercase;
+}
+
+.dropDownList {
+    max-height: 200px;
+    overflow-y: scroll;
+    /* float: right; */
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    width: 185px;
+    font-size: 12px;
+    border: 2px outset;
+    direction: rtl;
+}
+
+.scroller {
+    max-height: 170px;
+    overflow-y: scroll;
+}
+
+.borderDouble {
+    
+    border: 4px double;
+    margin-top: 4px;
+}
+
+.priceLable {
+	font-size: 12px;
+    width: 33%;
+    float: right;
+    text-align: right;
+}
+
+.divDateDetails {
+    margin-bottom: 3px;
+}
+
+.datePrice {
+    padding: 0% 0% 2% 1%;
+    cursor: pointer;
+}
+
+.displayNone {
+    display: none;
+}
+
+.headline {
+    font-size: 29px;
+}
+
+.saveButton {
+	border:none;
+    box-shadow:0 3px 5px #000;
+    color: #fff;
+    background-color: #353535;
+    float: left;
+    font-size: 15px;
+    /* padding: 9px 0; */
+	/* margin:20px 0 0; */
+    text-align: center;
+    width: 20%;
+	border-radius: 8px;
+    cursor: pointer;
+}
+
+.formView {
+    max-width: 91%;
+    background: #FAFAFA;
+    width:100%;
+    padding: 30px;
+    /* margin: 50px auto; */
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+    border: 6px solid #305A72;
+    min-height: 700px;
+    height: 100%;
+    float:right;
+    direction:rtl;
+}
+    .formView h1 {
+        text-align:center;
+    }
+
+.tableResult {
+    width:100%;
+    background-position: left top;
+    background-repeat: repeat-y;
+    /* min-width: 8%; */
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #fff;   
+}
+    .tableResult tr{
+        padding:2%;
+        background: #d4d4d4;
+    }  
+    .tableResult tr:hover{
+	    background-color:#C7EFCF;
+        cursor:pointer;
+    }
+    .tableResult th {
+        background: #4e4d4d;
+        background: -moz-linear-gradient(top, #3f3f3f 0%, #727272 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3f3f3f), color-stop(100%,#727272));
+        background: -webkit-linear-gradient(top, #3f3f3f 0%,#727272 100%);
+        background: -o-linear-gradient(top, #3f3f3f 0%,#727272 100%);
+        background: -ms-linear-gradient(top, #3f3f3f 0%,#727272 100%);
+        background: linear-gradient(to bottom, #3f3f3f 0%,#727272 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f3f3f', endColorstr='#727272',GradientType=0 );
+        color: #fff;
+    }
+
+.buttonMonth{
+    background: linear-gradient(rgb(117, 117, 117) 0%, rgb(60, 60, 60) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0098d1', endColorstr='#006990',GradientType=0 );
+    border: medium none;
+    border-radius: 8px;
+    box-shadow: none;
+    color: #fff;
+    font-family: "dcs",arial;
+    font-size: 14px;
+    line-height: 26px;
+                
+    padding: 0;
+    width: 51px;
+    text-align: center;
+    text-decoration: none;
+    margin-top:-15px;
+    cursor: pointer;
+}
+
+.searchRow {
+    width: 100%;
+    float: right;
+    margin-right: 3px;
+}
+
+.inputText{
+    background-color:#ffffff;
+    width: 30%;
+    height: 42px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 14px;
+    outline: none;
+}
+
+
+
+/*  For gov */
+
+.deals{
+	/*	float: left; */
+		width: 67%;
+	}
+	
+	.deals .deal {
+		float: right;
+		margin: 0 2% 0 0;
+		position: relative;
+		width: 315px;
+		padding: 0 0 2%;
+		height: 277px;
+	}	
+	
+	.deals .deal h2 {
+	  background: url(images/bg-title.png) no-repeat top center;
+	  color: #FFFFFF;
+	  float: right;
+	  height: 55px;
+	  font-size: 18px;
+	  margin: 0;
+	  padding: 10px 5%;
+	  position: absolute;
+	  text-align: right;
+	  width: 90%;
+	  z-index: 1;
+
+	}
+	
+	.deals .img{
+		width:315px;
+		height:150px;
+		padding:0 0 10px;
+		position:relative;
+	}
+	
+	.deals .img img{
+		height:150px;
+		width:100%;
+	}
+	
+	.deals .deal h3 {
+		font-size: 15px;
+		margin:0 0 3px;
+	}	
+	
+	.deals .deal .description{
+		font-size: 12px;
+	}
+	
+	.deals .deal .description span{
+		font-weight:bold;
+		color:#f7901e;
+	}
+	
+	.deals .deal .price {
+		color: #EE6A00;
+		float: left;
+		height:40px;
+	}
+	
+	.deals .deal .res{		
+		border-radius: 7px;
+		box-shadow: 0 3px 3px #858585;
+		color: #FFFFFF;
+		float: left;
+		
+		padding: 8px 0;
+		text-align: center;
+		width: 100%;
+		margin: 5px 0 0;
+		background:#f5821f;
+        
+        float: left;
+     
+        cursor:pointer;
+	}
+
+	.deals .deal .text {
+		float: right;
+		width:60%;
+	}
+
+	.deals .deal .left {
+		float: left;
+		width:35%;
+	}
+
+.quickPriceTextBox {
+    width: 78%;
+    margin-right: 6px;
+}
+
+div.accordion {
+    background-color: #d0d0d0;
+    color: #444;
+    cursor: pointer;
+    min-height: 18px;
+    border: none;
+    text-align: right;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    margin-top: 10px;
+}
+
+div.accordion.active, button.accordion:hover {
+    background-color: #ccc;
+}
+
+div.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+div.accordion.active:after {
+    content: "\2212";
+}
+
+div.panel {
+    display: none;
+    padding: 0 18px;
+    background-color: white;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.labelGeneralDetails {
+    float: right;
+    margin-right: 7px;
+    direction: rtl;
+    width: 9%;
+}
+
+.txtGeneralDetails {
+    float: right;
+    width: 8%;
+    direction: rtl;
+}
+
+.searchRow {
+    text-align:center;
+}
+
+.searchHeaderRow {
+    text-decoration: underline;
+    width:80%;
+}
+
+.searchCell {
+    width: 10%;
+}
+
+
+
+
+
+/* Test Css*/
+.testButton {
+    background: linear-gradient(to bottom, rgba(0,152,209,1) 0%,rgba(0,105,144,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0098d1', endColorstr='#006990',GradientType=0 );
+    border: medium none;
+    border-radius: 8px;
+    box-shadow: none;
+    color: #fff;
+    float: left;
+    font-family: "dcs",arial;
+    font-size: 17px;
+    line-height: 40px;
+    padding: 0;
+    width: 140px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: -15px;
+    margin-left: 10px;
+}
+
+
