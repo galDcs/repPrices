@@ -1,0 +1,167 @@
+
+^-------------------------------------------------------------------------
+^	Canceled vouchers roport
+^-------------------------------------------------------------------------
+
+CANCELED_VOUCHERS_REPORT_DOCKET_ID=Docket
+CANCELED_VOUCHERS_REPORT_VOUCHER_ID=Voucher
+CANCELED_VOUCHERS_REPORT_FROM_DATE=From date
+CANCELED_VOUCHERS_REPORT_TO_DATE=To date
+CANCELED_VOUCHERS_REPORT_INDICATION=Indication
+CANCELED_VOUCHERS_REPORT_HOTEL_NAME=Hotel Name
+CANCELED_VOUCHERS_REPORT_CANCEL_DATE=Cancel date
+
+NoPermission=אין לך הרשאות כדי להכנס למחירונים 
+
+HotelPriceSearchHeadLine=חיפוש מחירונים
+LoadHotelsError=אירעה שגיאה בטעינת המלונות
+ChooseHotel=בחר מלון
+Open=פתוח
+Close=סגור
+
+Search=חפש
+SupplierIdMissing=חסר מספר ספק
+SupplierNameMissing=חסר שם מלון
+PricePerDayNotExistsStart=מחזורי המכירה בתאריכים הבאים לא נשמרו כי לא הוגדר עבורם מחיר:
+ClerkIdMissing=חסר ClerkId אנא הכנס מחדש למערכת
+PleaseSaveTheGeneralPriceFirst=אנא שמור את המחירון הכללי לפני שמירת ימים ספציפיים
+PleaseEnterFromDateAndToDate=אנא הזן מתאריך ועד תאריך
+DateSaved=פרטי התאריך נשמרו בהצלחה
+HotelPriceSaved=המחירון נשמר בהצלחה
+SalesCyclesMonthlySaved=מחזורי המכירה שנשמרו בהצלחה:
+
+Sunday=ראשון
+Monday=שני
+Tuesday=שלישי
+Wednesday=רביעי
+Thursday=חמישי
+Friday=שישי
+Saturday=שבת
+
+Brutto=ברוטו
+Netto=נטו
+Rooms=חדרים
+FromDate=מתאריך
+ToDate=עד תאריך
+PleaseSelectDateInFormat=אנא הכנס תאריך בפורמט dd/MM/yy
+BaseCompositionDdlHead=הרכב למחיר בסיס
+BaseBaseDdlHead=בסיס אירוח למחיר בסיס
+BaseRoomTypeDdlHead=סוג חדר למחיר בסיס
+Composition=הרכב
+Base=בסיס אירוח
+RoomType=סוג חדר
+Order=הזמן
+
+Choose=בחר
+ChooseArea=בחר אזור
+ChooseHotel=בחר מלון
+Price=מחיר
+PriceNetto=מחיר נטו
+RoomsAmount=כמות חדרים
+RoomsInUse=חדרים בשימוש
+RoomsLeft=חדרים נותרו
+RoomsDisable=הגבלת חדרים
+SalesCycles=מחזורי מכירה
+
+SiteDiscount=הנחת אתר
+OfficeDiscount=הנחת משרד
+Commission=עמלה
+GeneralAdditive=תוספת כללית
+BabiesAdditive=תוספת תינוק
+Compositions=הרכבים
+Bases=בסיסי אירוח
+RoomTypes=חדרים
+
+Save=שמור
+SaveHotelPrice=שמור מחירון
+BackToMenu=חיפוש מחירונים
+MonthlyAllocation=מקסימום מכסה חודשית
+MonthlyAllocationSum=חדרים הוקצו
+MonthlyAllocationUsed=חדרים בשימוש
+CopyToAllMonth=העתק לכל החודש
+CloseDatesRange=סגור תאריכים
+OpenDatesRange=פתח תאריכים
+SaveSalesCycles=שמור מחזורי מכירה
+SaveAllocationMonthly=שמור הקצאות
+SaveMonthlyAllocation=שמור מכסה חודשית
+OpenCloseDatesSection=פתח/סגור טווח תאריכים
+SalesCycleMonthlySection=הזנת מחזורי מכירה חודשי
+QuickAssignPriceSection=הזנת סכומים חודשית
+QuickAssignAllocationsSection=הזנת הקצאות חודשית
+BaseComboSection=שינוי פרטי מחיר בסיס
+BasePriceCombo=פרטי מחיר בסיס
+ButtonMoveToMonth=עבור לחודש
+
+Status=סטטוס
+Active=פעיל
+InActive=לא פעיל
+
+///////////////// Cast errors ///////////////////
+CastBasePriceError=אנא הזן סכום בספרות
+CastDateError=קרתה שגיאה בהמרת התאריך.
+CastStatusError=אנא בחר פעיל/לא פעיל בסטטוס
+CastRoomsAmountError=אנא הזן מספר חדרים בספרות
+CastSaleCyclesError=אנא הזן מחזורי מכירה באופן הבא: מספר,מספר,מספר (לדוגמא 1,2,3,4)
+CastOfficeDiscountError=אנא הזן הנחת משרד בספרות
+CastSiteDiscountError=אנא הזן הנחת אתר בספרות
+CastCommissionError=אנא הזן עמלה בספרות
+CastSundayNumberError=אנא הכנס מספר תקין ביום ראשון
+CastMondayNumberError=אנא הכנס מספר תקין ביום שני
+CastTuesdayNumberError=אנא הכנס מספר תקין ביום שלישי
+CastWednesdayNumberError=אנא הכנס מספר תקין ביום רביעי
+CastThursdayNumberError=אנא הכנס מספר תקין ביום חמישי
+CastFridayNumberError=אנא הכנס מספר תקין ביום שישי
+CastSaturdayNumberError=אנא הכנס מספר תקין ביום שבת
+CastGeneralAdditveError=אנא הזן תוספת כללית בספרות
+CastBabiesAdditveError=אנא הזן תוספת עבור תינוק בספרות
+CastBaseCompositionError=אנא בחר הרכב עבור מחיר בסיס
+CastBaseBaseError=אנא בחר בסיס אירוח עבור מחיר בסיס
+CastBaseRoomTypeError=אנא בחר סוג חדר עבור מחיר בסיס
+
+Without=ללא
+PriceColor=צבע מחירון
+PriceColorGreen=ירוק
+PriceColorYellow=צהוב
+PriceColorRed=אדום
+
+
+Next=הבא
+Previous=הקודם
+SetCalendarPrices=הזנת מחירים
+SetGeneralDetails=שינוי פרטי מחירון
+
+Color=צבע
+BaseAmount=תוספות
+BasePercent=אחוזים
+////////////////// Extra requests //////////////
+ReshetFatal=-מרשת פתאל
+
+SucceccOpenDates=תאריכים נפתחו בהצלחה
+SucceccCloseDates=תאריכים נסגרו בהצלחה
+SucceccSetPrices=מחירים נשמרו בהצלחה
+SucceccSetRooms=חדרים נשמרו בהצלחה
+SucceccSetSalesCycles=מחירים נשמרו בהצלחה
+SuccessSaveMonthlyAllocation=הקצאה חודשית נשמרה בהצלחה
+
+
+FailedToCreateDocketInAgencyStatusNotOk=יצירת תיק נכשלה סטטוס היא לא OK
+FailedToGetDocketId=יצירת תיק נכשלה לא התקבל מספר תיק
+FailedToGetVoucherId=יצירת תיק נכשלה לא התקבל מספר שובר
+FailedToCreateDocketInAgency=יצירת תיק נכשלה
+FailedToUpdateMonthlyAllocation=נכשל לשמור הקצאה חודשית
+FailedToTakeAllocations=נכשל להוריד הקצאות
+
+
+CompositionNotFound=הרכב אינו מוגדר
+BaseNotFound=בסיס אירוח אינו מוגדר
+RoomTypeNotFound=סוג חדר אינו מוגדר
+DateIsClose=התאריך **currentDate** סגור
+NoSaleCycle=אין מחזור מכירה בתאריך **fromDate**
+NotEnoughRooms=נגמרו החדרים בתאריך **currentDate**
+MonthlyAllocationexceeded=נגמרו החדרים במכסה החודשית
+DateNotDefined=התאריך **currentDate** לא מוגדר
+
+CloseDateReason=סיבת סגירה
+Nights=לילות
+NightsFree=לילות חינם
+AddNew=הוסף חדש
